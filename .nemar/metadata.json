@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation",
-  "description": "This dataset comprises simultaneous multimodal neurophysiological recordings (EEG, electrospinography, electroneurography, electromyography, electrocardiography, and respiratory signals) from 26 participants during resting state (eyes open) and eight somatosensory stimulation conditions. Stimulation conditions include mixed nerve stimulation (median and tibial nerves) and individual sensory nerve stimulation of fingers (index, middle) and toes (first, second), including combined digit stimulation. The dataset enables investigation of somatosensory evoked potentials across multiple recording modalities and stimulation paradigms, with particular emphasis on spinal cord responses to peripheral nerve stimulation.",
-  "methods_description": "Data were collected using simultaneous EEG, electrospinography (ESG), electroneurography (ENG), and electromyography (EMG) recordings, including electrocardiographic and respiratory signals. Nine recording conditions were employed: resting state (eyes open), mixed median nerve stimulation, mixed tibial nerve stimulation, and sensory stimulation of individual fingers (index, middle) and toes (first, second), including combined digit stimulation. EEG channel Fz was referenced to both the right mastoid (standard EEG reference) and the 6th thoracic vertebra (ESG reference).",
+  "description": "This dataset comprises simultaneous multimodal neurophysiological recordings (EEG, electrospinography, electroneurography, and EMG) from 26 participants during resting state and various somatosensory stimulation conditions targeting mixed nerves (median and tibial) and individual digits. The dataset enables investigation of somatosensory evoked potentials and their propagation through the central and peripheral nervous system across multiple recording modalities.",
+  "methods_description": "Simultaneous EEG, electrospinography (ESG), electroneurography (ENG), and electromyography (EMG) recordings were acquired from 26 participants during nine conditions: resting state (eyes open), mixed median nerve stimulation, mixed tibial nerve stimulation, sensory stimulation of individual fingers (index, middle) and toes (first, second), and combined digit stimulation. Recordings included electrocardiographic and respiratory signals. EEG channel Fz was referenced to both right mastoid (standard EEG reference) and the 6th thoracic vertebra (ESG reference).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,9 +21,6 @@
       "term": "somatosensory evoked potentials"
     },
     {
-      "term": "somatosensory"
-    },
-    {
       "term": "EEG"
     },
     {
@@ -33,13 +30,9 @@
       "term": "electroneurography"
     },
     {
-      "term": "electromyography"
-    },
-    {
-      "term": "electrocardiography"
-    },
-    {
-      "term": "respiratory signals"
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
       "term": "peripheral nerve stimulation"
@@ -54,13 +47,10 @@
       "term": "tibial nerve"
     },
     {
-      "term": "digit stimulation"
+      "term": "sensory stimulation"
     },
     {
-      "term": "resting state"
-    },
-    {
-      "term": "multimodal"
+      "term": "somatosensory system"
     }
   ],
   "related_identifiers": [
@@ -88,6 +78,9 @@
   "funding_references": [
     {
       "funder_name": "n/a"
+    },
+    {
+      "funder_name": "No funding received"
     }
   ],
   "resource_type_specific": "EEG Dataset",
