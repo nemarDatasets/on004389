@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004389",
-  "source": "openneuro",
-  "source_id": "ds004389",
+  "pipeline_stage": "enriched",
   "title": "Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Birgit Nierula": {},
     "Tilman Stephani": {},
@@ -14,27 +14,84 @@
     "Vadim V. Nikulin": {},
     "Falk Eippert": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004389.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004389",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004389",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004389",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "n/a"
     }
   ],
-  "acknowledgements": "This data was acquired with the help of our student research assistants Janek Haschke, Pia-Lena Baisch, Paula Kosel, Max Braune, Samuel Simeon, and Marleen Löffler."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises simultaneous multimodal neurophysiological recordings from 26 participants, including electroencephalography (EEG), electrospinography (ESG), electroneurography (ENG), and electromyography (EMG), along with electrocardiographic and respiratory signals. Recordings were obtained during nine experimental conditions encompassing resting state and peripheral nerve stimulation of upper and lower limb nerves and digits. The dataset enables investigation of somatosensory evoked potentials and their propagation through the central and peripheral nervous system.",
+  "methods_description": "Simultaneous EEG-ESG-ENG-EMG recordings were acquired from 26 participants across nine conditions: resting state (eyes open), mixed median nerve stimulation, mixed tibial nerve stimulation, and sensory stimulation of individual and paired digits (index finger, middle finger, first toe, second toe). EEG channel Fz was referenced to both the right mastoid (standard EEG reference) and the 6th thoracic vertebra (ESG reference). Electrocardiographic and respiratory signals were recorded concurrently.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Evoked Potentials Somatosensory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
+    },
+    {
+      "term": "Spinal Cord",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
+    },
+    {
+      "term": "Nerve Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004558"
+    },
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "Electroneurography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004568"
+    },
+    {
+      "term": "multimodal neurophysiology"
+    }
+  ],
+  "source_hash": "f91ab85cbc6b92c803b4ab7068aef40d2a8926b43ae80a8cdcce3eec7e98d775"
 }
