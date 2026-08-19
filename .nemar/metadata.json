@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation",
-  "description": "This dataset comprises simultaneous multimodal neurophysiological recordings (EEG, electrospinography, electroneurography, and EMG) from 26 participants during resting state and various somatosensory stimulation conditions targeting mixed nerves (median and tibial) and individual digits. The dataset enables investigation of somatosensory evoked potentials and their propagation through the central and peripheral nervous system across multiple recording modalities.",
-  "methods_description": "Simultaneous EEG, electrospinography (ESG), electroneurography (ENG), and electromyography (EMG) recordings were acquired from 26 participants during nine conditions: resting state (eyes open), mixed median nerve stimulation, mixed tibial nerve stimulation, sensory stimulation of individual fingers (index, middle) and toes (first, second), and combined digit stimulation. Recordings included electrocardiographic and respiratory signals. EEG channel Fz was referenced to both right mastoid (standard EEG reference) and the 6th thoracic vertebra (ESG reference).",
+  "description": "This dataset contains simultaneous EEG, electrospinography (ESG), electroneurography (ENG), and electromyography (EMG) recordings from 26 healthy participants during resting state and various peripheral nerve stimulation paradigms (mixed and sensory nerve stimulation of median, tibial, and digital/toe nerves). The recordings aim to characterize somatosensory evoked potentials at the level of the spinal cord and cortex, enabling investigation of somatosensory processing across peripheral, spinal, and cortical levels. The study was pre-registered and organized according to the BIDS specification.",
+  "methods_description": "Simultaneous EEG-ESG-ENG-EMG recordings, including electrocardiographic and respiratory signals, were collected from each participant across nine conditions: resting state with eyes open, mixed median and tibial nerve stimulation, and sensory nerve stimulation of the index finger, middle finger, first toe, second toe, and simultaneous stimulation combinations. ESG electrode positions were also recorded. The EEG channel Fz was referenced to both the right mastoid (EEG reference) and the 6th thoracic vertebra (ESG reference).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,16 +18,15 @@
   },
   "keywords": [
     {
-      "term": "somatosensory evoked potentials"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "electrospinography"
+      "term": "somatosensory evoked potentials"
     },
     {
-      "term": "electroneurography"
+      "term": "Spinal Cord",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
     },
     {
       "term": "Electromyography",
@@ -35,32 +34,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
-      "term": "peripheral nerve stimulation"
+      "term": "nerve stimulation"
     },
     {
-      "term": "spinal cord"
-    },
-    {
-      "term": "median nerve"
-    },
-    {
-      "term": "tibial nerve"
-    },
-    {
-      "term": "sensory stimulation"
-    },
-    {
-      "term": "somatosensory system"
+      "term": "electroneurography"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004389",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004389",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -73,14 +55,16 @@
       "identifier": "10.18112/openneuro.ds004389.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004389",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "n/a"
-    },
-    {
-      "funder_name": "No funding received"
     }
   ],
   "resource_type_specific": "EEG Dataset",
